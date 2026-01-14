@@ -75,6 +75,10 @@ dist/*
 .now
 
 # backend stuff
+
+migrations/
+Pipfile.lock
+packahe-lock.json
 .venv
 database.database
 database.db
