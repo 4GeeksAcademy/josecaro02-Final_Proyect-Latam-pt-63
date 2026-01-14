@@ -39,6 +39,8 @@ export const Home = () => {
 				<img src={rigoImageUrl} className="img-fluid rounded-circle mb-3" alt="Rigo Baby" />
 			</p>
 			<div className="alert alert-info">
+				<h1> Esto es un Navbar</h1>
+				<h1> Esto es un Jumbtron</h1>
 				{store.message ? (
 					<span>{store.message}</span>
 				) : (
